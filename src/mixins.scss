@@ -1,0 +1,12 @@
+@mixin clear-default{
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    outline: none;
+}
+
+$load-color: #5acf49;
+$clear-color: #cf4990;
+$group-color: #49c5cf;

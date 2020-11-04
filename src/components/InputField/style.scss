@@ -1,0 +1,17 @@
+@import '../../mixins.scss';
+
+.input-field{
+    @include clear-default;
+    width: 40%;
+    max-width: 390px;
+    height: 40px;
+    font-size: 18px;
+    border: black 3px solid;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: 'Roboto', sans-serif;
+    @media screen and (max-width: 550px) {
+        width: 90%;
+    }
+}
